@@ -1,5 +1,30 @@
-{/* Compact Project Details */}
-<div
+import {
+  ArrowUpRight,
+  CalendarDays,
+  MessageCircle,
+  Megaphone,
+  Palette,
+  type LucideIcon,
+} from "lucide-react";
+
+type Responsibility = {
+  title: string;
+  icon: LucideIcon;
+};
+
+const responsibilities: Responsibility[] = [
+  { title: "Content Strategy", icon: CalendarDays },
+  { title: "Creative Direction", icon: Palette },
+  { title: "Campaign Management", icon: Megaphone },
+  { title: "Community Engagement", icon: MessageCircle },
+];
+
+export default function TheLabelConceptCaseStudy() {
+  return (
+    <section className="bg-[#F8F5F2] px-4 py-14 sm:px-6 sm:py-20 lg:py-24">
+      <div className="mx-auto w-full max-w-[1340px]">
+        {/* Compact Project Details */}
+        <div
   className="
     mt-5
     grid overflow-hidden
@@ -145,4 +170,8 @@
       ))}
     </div>
   </div>
-</div>
+        </div>
+      </div>
+    </section>
+  );
+}
