@@ -1,0 +1,14 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1100" fill="#E6DDD8"/>
+  <circle cx="450" cy="330" r="170" fill="#C89D8B"/>
+  <path d="M180 1098C190 760 290 585 450 585C610 585 710 760 720 1098H180Z" fill="#F7F2EF"/>
+  <path d="M280 347C294 184 362 116 461 116C574 116 634 207 628 366C582 303 533 273 470 274C385 274 329 301 280 347Z" fill="#4B3B35"/>
+  <path d="M294 317C275 446 302 521 351 578C386 618 422 644 450 648C350 664 241 596 222 467C209 375 241 329 294 317Z" fill="#4B3B35"/>
+  <path d="M606 315C633 429 615 518 560 582C526 621 491 644 452 649C563 657 660 582 677 457C688 374 659 331 606 315Z" fill="#4B3B35"/>
+  <circle cx="392" cy="343" r="12" fill="#3A2F2B"/>
+  <circle cx="512" cy="343" r="12" fill="#3A2F2B"/>
+  <path d="M409 421C435 442 468 442 493 421" stroke="#8E6254" stroke-width="10" stroke-linecap="round"/>
+  <path d="M347 620L451 746L553 620" stroke="#D8C3BA" stroke-width="16"/>
+  <rect x="0" y="930" width="900" height="170" fill="#DDC0B4" fill-opacity=".2"/>
+  <text x="450" y="1010" text-anchor="middle" fill="#8E6254" font-family="Arial, sans-serif" font-size="24" letter-spacing="8">REPLACE WITH LAYLA'S PHOTO</text>
+</svg>

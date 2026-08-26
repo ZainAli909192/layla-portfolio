@@ -1,0 +1,12 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#E6DDD8"/>
+  <circle cx="180" cy="650" r="230" fill="#DDC0B4"/>
+  <circle cx="1040" cy="160" r="190" fill="#D4B0A2"/>
+  <rect x="280" y="140" width="640" height="500" rx="18" fill="#FBFAF8"/>
+  <rect x="325" y="185" width="550" height="300" rx="12" fill="#2E2927"/>
+  <text x="600" y="350" fill="#F7F2EF" font-family="Arial" font-size="78" text-anchor="middle" letter-spacing="12">LAUNCH</text>
+  <rect x="325" y="520" width="160" height="30" rx="15" fill="#DDC0B4"/>
+  <rect x="505" y="520" width="250" height="30" rx="15" fill="#E6DDD8"/>
+  <path d="M820 505L860 470L900 505L860 540L820 505Z" fill="#C28F7B"/>
+  <text x="600" y="715" fill="#8E6254" font-family="Arial" font-size="28" text-anchor="middle" letter-spacing="5">BRAND LAUNCH</text>
+</svg>

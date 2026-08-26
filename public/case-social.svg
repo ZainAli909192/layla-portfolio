@@ -1,0 +1,14 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#E6DDD8"/>
+  <circle cx="180" cy="150" r="95" fill="#DDC0B4"/>
+  <rect x="330" y="95" width="540" height="620" rx="42" fill="#2E2927"/>
+  <rect x="365" y="150" width="470" height="490" rx="24" fill="#FBFAF8"/>
+  <rect x="395" y="185" width="410" height="210" rx="16" fill="#DDC0B4"/>
+  <circle cx="600" cy="290" r="64" fill="#FBFAF8" fill-opacity=".7"/>
+  <rect x="395" y="430" width="280" height="18" rx="9" fill="#C9BBB4"/>
+  <rect x="395" y="468" width="350" height="16" rx="8" fill="#E6DDD8"/>
+  <rect x="395" y="508" width="188" height="16" rx="8" fill="#E6DDD8"/>
+  <circle cx="600" cy="675" r="16" fill="#DDC0B4"/>
+  <path d="M900 160C1050 198 1110 350 1052 482C998 605 857 662 747 616" stroke="#DDC0B4" stroke-width="5" fill="none"/>
+  <text x="980" y="705" fill="#8E6254" font-family="Arial" font-size="26" text-anchor="middle" letter-spacing="4">SOCIAL MEDIA</text>
+</svg>

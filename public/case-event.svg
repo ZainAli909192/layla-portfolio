@@ -1,0 +1,19 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#F5F0ED"/>
+  <rect y="0" width="1200" height="180" fill="#D7B3A5"/>
+  <path d="M0 180H1200L1050 520H150L0 180Z" fill="#E6DDD8"/>
+  <circle cx="200" cy="520" r="150" fill="#DDC0B4"/>
+  <circle cx="1000" cy="520" r="150" fill="#DDC0B4"/>
+  <ellipse cx="600" cy="560" rx="315" ry="100" fill="#C99885"/>
+  <ellipse cx="600" cy="535" rx="315" ry="100" fill="#F7F2EF"/>
+  <g fill="#FFFFFF">
+    <circle cx="390" cy="500" r="24"/><circle cx="470" cy="470" r="24"/><circle cx="550" cy="450" r="24"/>
+    <circle cx="650" cy="450" r="24"/><circle cx="730" cy="470" r="24"/><circle cx="810" cy="500" r="24"/>
+  </g>
+  <g stroke="#B88977" stroke-width="6">
+    <path d="M320 335C380 250 440 255 505 332"/>
+    <path d="M515 332C575 235 635 235 695 332"/>
+    <path d="M705 332C765 255 825 250 885 335"/>
+  </g>
+  <text x="600" y="725" fill="#8E6254" font-family="Arial" font-size="28" text-anchor="middle" letter-spacing="5">CORPORATE EVENT</text>
+</svg>
