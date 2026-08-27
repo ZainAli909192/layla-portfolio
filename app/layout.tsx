@@ -16,9 +16,9 @@ const editorial = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Layla Oud | Social Media, Events & Management",
+  title: "Layla Ouda | Social Media, Events & Management",
   description:
-    "Portfolio of Layla Oud — Social Media Manager, Event Planner and Management Professional.",
+    "Portfolio of Layla Ouda — Social Media Manager, Event Planner and Management Professional.",
 };
 
 export default function RootLayout({
