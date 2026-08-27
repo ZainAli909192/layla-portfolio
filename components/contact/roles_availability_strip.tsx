@@ -3,7 +3,7 @@ import { BriefcaseBusiness, CalendarCheck, Globe2 } from "lucide-react";
 const details = [
   { label: "Roles", value: "Social Media · Events · Management", icon: BriefcaseBusiness },
   { label: "Availability", value: "Open to selected opportunities", icon: CalendarCheck },
-  { label: "Working style", value: "Dubai-based · Remote-friendly", icon: Globe2 },
+  { label: "Working style", value: "Abu Dhabi-based · Remote-friendly", icon: Globe2 },
 ];
 
 export default function RolesAvailabilityStrip() {

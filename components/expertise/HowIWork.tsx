@@ -108,9 +108,6 @@ export default function HowIWork() {
           </p>
         </div>
 
-        {/* ==========================================
-            DESKTOP
-        =========================================== */}
         <div className="hidden lg:block">
           <div className="relative">
             {/* Connecting line */}
@@ -199,9 +196,6 @@ export default function HowIWork() {
           </div>
         </div>
 
-        {/* ==========================================
-            MOBILE / TABLET
-        =========================================== */}
         <div className="lg:hidden">
           <div className="relative">
             {/* Main vertical line */}
