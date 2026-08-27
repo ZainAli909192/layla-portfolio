@@ -35,9 +35,12 @@ const exposure = [
 ];
 
 const galleryImages = [
-  "/portfolio/nuit1.png",
-  "/portfolio/nuit2.png",
+  "/portfolio/nuitmain.jpeg",
+  "/portfolio/nuit2.png", 
   "/portfolio/nuit3.png",
+    "/portfolio/nuit3.png",
+  "/portfolio/nuit3.png",
+
 ];
 
 export default function NuitCollectionCaseStudy() {
