@@ -184,7 +184,7 @@ export default function FinalCTA() {
               2xl:bg-top
             "
             style={{
-              backgroundImage: "url('/herobg.png')",
+              backgroundImage: "url('/finalctabanner.png')",
             }}
           />
 
@@ -219,7 +219,7 @@ export default function FinalCTA() {
               lg:inset-0
               lg:min-h-0
             "
-          >
+          > 
             <div
               className="
                 w-full

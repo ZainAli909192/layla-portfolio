@@ -11,7 +11,7 @@ export default function FloatingContact() {
     >
       {/* Email */}
       <a
-        href="mailto:Laylaoud@gmail.com"
+        href="mailto:laylaouda@gmail.com"
         aria-label="Email Layla"
         className="
           group
@@ -45,7 +45,7 @@ export default function FloatingContact() {
 
       {/* WhatsApp */}
       <a
-        href="https://wa.me/971500000000"
+        href="https://wa.me/+971509204222"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="WhatsApp Layla"

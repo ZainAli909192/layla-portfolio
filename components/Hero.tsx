@@ -169,7 +169,7 @@ export default function Hero() {
 
           <div className="flex">
             <a
-              href="#portfolio"
+              href="/portfolio"
               className="
                 group inline-flex
                 min-h-[50px]
@@ -194,22 +194,12 @@ export default function Hero() {
 
                 sm:min-h-12
                 sm:text-[11px]
+                rounded  
               "
             >
               View my work
 
-              <span
-                aria-hidden="true"
-                className="
-                  text-xl
-                  font-light
-                  leading-none
-                  transition-transform
-                  group-hover:translate-x-1
-                "
-              >
-                →
-              </span>
+            
             </a>
 
             {/* Hidden on mobile */}

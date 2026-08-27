@@ -40,7 +40,7 @@ export default function ExpertiseHero() {
 
         <div className="relative min-h-[430px] sm:min-h-[560px] lg:min-h-[640px]">
           <div className="absolute inset-x-5 inset-y-0 overflow-hidden rounded-t-[min(18vw,var(--radius-lg))] rounded-b-[var(--radius-md)] sm:inset-x-10 lg:inset-x-0 lg:left-12">
-            <Image src="/experitse.png" alt="Creative professional planning work at a desk" fill priority sizes="(max-width: 1024px) 100vw, 52vw" className="object-cover object-center" />
+            <Image src="/portfolio/mainhero.avif" alt="Creative professional planning work at a desk" fill priority sizes="(max-width: 1024px) 100vw, 52vw" className="object-cover object-center" />
             <div className="absolute inset-0 bg-gradient-to-t from-[var(--ink)]/60 via-transparent to-transparent" aria-hidden="true" />
           </div>
 

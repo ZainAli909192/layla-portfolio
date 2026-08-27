@@ -17,10 +17,10 @@ const responsibilities = [
     title: "Customer Communication",
     text: "Supporting customer interaction and maintaining a clear, professional brand voice.",
   },
-{
-  title: "Influencer Collaboration",
-  text: "Coordinating product gifting and promotional collaborations with Instagram bloggers and influencers.",
-},
+  {
+    title: "Influencer Collaboration",
+    text: "Coordinating product gifting and promotional collaborations with Instagram bloggers and influencers.",
+  },
   {
     title: "Paid Promotion",
     text: "Running Meta advertising campaigns to support visibility and reach target audiences.",
@@ -34,6 +34,12 @@ const exposure = [
   "Qatar Event Representation",
 ];
 
+const galleryImages = [
+  "/portfolio/nuit1.png",
+  "/portfolio/nuit2.png",
+  "/portfolio/nuit3.png",
+];
+
 export default function NuitCollectionCaseStudy() {
   return (
     <section
@@ -41,7 +47,10 @@ export default function NuitCollectionCaseStudy() {
       className="overflow-hidden bg-[#F8F3F0] py-16 sm:py-20 lg:py-28"
     >
       <div className="mx-auto w-[min(92%,1440px)]">
-      
+
+        {/* =========================================
+            CASE STUDY HEADER
+        ========================================== */}
         <div
           className="
             mb-10
@@ -52,7 +61,6 @@ export default function NuitCollectionCaseStudy() {
             lg:items-end
           "
         >
-          {/* Number / Meta */}
           <div>
             <p className="mb-3 text-[9px] font-bold uppercase tracking-[0.22em] text-[#B98773] sm:text-[10px]">
               Featured Brand / 02
@@ -63,7 +71,6 @@ export default function NuitCollectionCaseStudy() {
             </span>
           </div>
 
-          {/* Title */}
           <div className="lg:text-right">
             <h2
               className="
@@ -77,6 +84,7 @@ export default function NuitCollectionCaseStudy() {
             >
               Nuit
               <br />
+
               <span className="italic text-[#B98773]">
                 Collection.
               </span>
@@ -84,12 +92,14 @@ export default function NuitCollectionCaseStudy() {
 
             <p
               className="
+                hidden
                 mt-5
                 max-w-[520px]
                 text-[13px]
                 leading-7
                 text-[#655B56]
 
+                sm:block
                 sm:text-[14px]
 
                 lg:ml-auto
@@ -102,9 +112,9 @@ export default function NuitCollectionCaseStudy() {
           </div>
         </div>
 
-        {/* ===============================
+        {/* =========================================
             MAIN EDITORIAL LAYOUT
-        =============================== */}
+        ========================================== */}
         <div
           className="
             grid gap-4
@@ -113,13 +123,14 @@ export default function NuitCollectionCaseStudy() {
             lg:gap-5
           "
         >
-          {/* Large Fashion Visual */}
+          {/* MAIN IMAGE */}
           <div
             className="
               group relative
               min-h-[500px]
               overflow-hidden
               rounded-[22px]
+              bg-[#E6DDD8]
 
               sm:min-h-[620px]
 
@@ -128,9 +139,10 @@ export default function NuitCollectionCaseStudy() {
             "
           >
             <Image
-              src="/portfolio/nuitmain.jpeg"
+              src="/portfolio/nuitmain2.jpeg"
               alt="Nuit Collection fashion brand work"
               fill
+              priority
               sizes="(max-width: 1024px) 100vw, 42vw"
               className="
                 object-cover
@@ -168,9 +180,12 @@ export default function NuitCollectionCaseStudy() {
             </div>
           </div>
 
-          {/* Right Side */}
+          {/* =========================================
+              RIGHT SIDE
+          ========================================== */}
           <div className="grid gap-4">
-            {/* Story Card */}
+
+            {/* BRAND STORY */}
             <div
               className="
                 rounded-[22px]
@@ -179,6 +194,7 @@ export default function NuitCollectionCaseStudy() {
                 p-6
 
                 sm:p-8
+
                 lg:rounded-[28px]
                 lg:p-10
               "
@@ -205,12 +221,13 @@ export default function NuitCollectionCaseStudy() {
                 strong social presence.
               </h3>
 
-              <p className="max-w-[620px] text-[13px] leading-7 text-[#655B56] sm:text-[14px]">
+              <p className="hidden max-w-[620px] text-[13px] leading-7 text-[#655B56] sm:block sm:text-[14px]">
                 Layla built and represented Nuit Collection as an abaya brand,
                 managing customer communication, product presentation, social
                 promotion and promotional partnerships.
               </p>
 
+              {/* EXPOSURE TAGS */}
               <div
                 className="
                   mt-7 grid
@@ -246,13 +263,11 @@ export default function NuitCollectionCaseStudy() {
               </div>
             </div>
 
-            {/* Small Visuals */}
+            {/* =========================================
+                EDITORIAL IMAGE GRID
+            ========================================== */}
             <div className="grid grid-cols-2 gap-4">
-              {[
-                "/portfolio/nuit1.png",      
-                "/portfolio/nuit2.png",
-                "/portfolio/nuit3.png",
-              ].map((src, index) => (
+              {galleryImages.map((src, index) => (
                 <div
                   key={src}
                   className={`
@@ -260,6 +275,7 @@ export default function NuitCollectionCaseStudy() {
                     min-h-[190px]
                     overflow-hidden
                     rounded-[18px]
+                    bg-[#E6DDD8]
 
                     sm:min-h-[250px]
 
@@ -309,11 +325,14 @@ export default function NuitCollectionCaseStudy() {
           </div>
         </div>
 
+        {/* =========================================
+            WHAT I MANAGED
+        ========================================== */}
         <ManagedTimeline items={responsibilities} />
 
-        {/* ===============================
-            BRAND EXPOSURE STRIP
-        =============================== */}
+        {/* =========================================
+            BRAND EXPOSURE
+        ========================================== */}
         <div
           className="
             mt-5
@@ -359,11 +378,11 @@ export default function NuitCollectionCaseStudy() {
 
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
               {[
-               {
-  title: "Influencers",
-  subtitle: "Product collaborations",
-  icon: Camera,
-},
+                {
+                  title: "Influencers",
+                  subtitle: "Product collaborations",
+                  icon: Camera,
+                },
                 {
                   title: "Meta Ads",
                   subtitle: "Paid promotion",
@@ -400,7 +419,7 @@ export default function NuitCollectionCaseStudy() {
                     {title}
                   </strong>
 
-                  <span className="mt-1 block text-[9px] leading-4 text-[#675A54]">
+                  <span className="mt-1 hidden text-[9px] leading-4 text-[#675A54] sm:block">
                     {subtitle}
                   </span>
                 </div>
@@ -409,6 +428,9 @@ export default function NuitCollectionCaseStudy() {
           </div>
         </div>
 
+        {/* =========================================
+            CASE STUDY FOOTER
+        ========================================== */}
         <div
           className="
             mt-8
@@ -422,42 +444,78 @@ export default function NuitCollectionCaseStudy() {
             sm:justify-between
           "
         >
-          <p className="max-w-[560px] text-[12px] leading-6 text-[#746964]">
+          <p className="hidden max-w-[560px] text-[12px] leading-6 text-[#746964] sm:block">
             This project reflects Layla&apos;s ability to combine brand
             presentation, social media, promotion and customer-facing
             communication within one role.
           </p>
 
-          <a
-            href="#social-work"
-            className="
-              group inline-flex
-              min-h-[50px]
-              items-center justify-center
-              gap-4
-              border border-[#DDC0B4]
-              bg-[#FBFAF8]
-              px-6
-              text-[9px]
-              font-bold uppercase
-              tracking-[0.13em]
-              text-[#8F6252]
-              transition-all duration-300
+          <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
+            <a
+              href="https://www.instagram.com/nuitcollection/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="
+                group inline-flex
+                min-h-[50px]
+                items-center justify-center
+                gap-4
+                border border-[#DDC0B4]
+                bg-[var(--primary)]
+                px-6
+                text-[9px]
+                font-bold uppercase
+                tracking-[0.13em]
+                text-[#8F6252]
+                transition-all duration-300
 
-              hover:bg-[#DDC0B4]
-              hover:text-[#2E2927]
+                hover:bg-[#DDC0B4]
+                hover:text-[#2E2927]
 
-              sm:min-w-[220px]
-            "
-          >
-            Explore More Work
+                sm:min-w-[220px]
+              "
+            >
+              Instagram Account
 
-            <ArrowUpRight
-              size={16}
-              strokeWidth={1.6}
-              className="transition-transform duration-300 group-hover:-translate-y-[2px] group-hover:translate-x-[2px]"
-            />
-          </a>
+              <ArrowUpRight
+                size={16}
+                strokeWidth={1.6}
+                className="transition-transform duration-300 group-hover:-translate-y-[2px] group-hover:translate-x-[2px]"
+              />
+            </a>
+
+            <a
+              href="#social-work"
+              className="
+                group hidden
+                min-h-[50px]
+                items-center justify-center
+                gap-4
+                border border-[#DDC0B4]
+                bg-[var(--primary)]
+                px-6
+                text-[9px]
+                font-bold uppercase
+                tracking-[0.13em]
+                text-[#8F6252]
+                transition-all duration-300
+
+                hover:bg-[#DDC0B4]
+                hover:text-[#2E2927]
+
+                sm:min-w-[220px]
+                sm:inline-flex
+              "
+            >
+              Explore More Work
+
+              <ArrowUpRight
+                size={16}
+                strokeWidth={1.6}
+                className="transition-transform duration-300 group-hover:-translate-y-[2px] group-hover:translate-x-[2px]"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </section>

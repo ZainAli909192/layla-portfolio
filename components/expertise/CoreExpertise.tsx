@@ -20,7 +20,7 @@ const expertise = [
     alt: "Social media platforms used for digital content planning",
 
     imageFit: "contain",
-    imagePosition: "center",
+    imagePosition: "center", 
 
     capabilities: [
       { label: "Content Strategy", icon: CalendarDays },
@@ -36,9 +36,9 @@ const expertise = [
     subtitle: "Concept · Coordination · Execution",
     description:
       "Turning ideas into structured, memorable experiences through precise planning, calm coordination and hands-on delivery.",
-    image: "/event.png",
+    image: "/13.jpg",
     alt: "Elegant event table prepared for guests",
-
+   
     imageFit: "cover",
     imagePosition: "center",
 
@@ -56,7 +56,7 @@ const expertise = [
     subtitle: "People · Projects · Results",
     description:
       "Bringing people, timelines and priorities together so communication stays clear and every outcome remains aligned.",
-    image: "/manage.png",
+    image: "/manage1.png",
     alt: "Management presentation and team coordination",
 
     imageFit: "cover",

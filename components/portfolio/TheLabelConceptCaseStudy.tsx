@@ -119,6 +119,7 @@ export default function TheLabelConceptCaseStudy() {
               min-h-[500px]
               overflow-hidden
               rounded-[22px]
+              bg-[#E6DDD8]
 
               sm:min-h-[620px]
 
@@ -127,16 +128,13 @@ export default function TheLabelConceptCaseStudy() {
             "
           >
             <Image
-              src="/portfolio/main.png"
+              src="/portfolio/main2.jpeg"
               alt="The Label Concept fashion brand work"
               fill
               sizes="(max-width: 1024px) 100vw, 42vw"
               className="
-                object-cover
-                object-center
-                transition-transform
-                duration-700
-                group-hover:scale-[1.025]
+                object-contain
+                object-top
               "
             />
 
