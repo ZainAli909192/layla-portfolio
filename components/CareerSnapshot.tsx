@@ -35,7 +35,7 @@ const responsibilities: Responsibility[] = [
 const gallery = [
   "/portfolio/2.jpg",
   "/portfolio/3.jpg",
-  "/portfolio/4.jpg",
+  "/portfolio/main.png",
 ];
 
 export default function TheLabelConceptCaseStudy() {
@@ -67,10 +67,19 @@ export default function TheLabelConceptCaseStudy() {
             <a
               href="https://thelabelconcept.ae"
               target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 inline-flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.13em] text-[#B98773] transition-opacity hover:opacity-70"
-            >
+              rel="noopener noreferrer" 
+              className="bg-[#ddc0b4] p-3  rounded mt-6 inline-flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.13em] text-[#B98773] transition-opacity hover:scale-[1.3] transition-all duration-1000 ease-in-out" 
+            > 
               Visit Website
+              <ArrowUpRight size={15} strokeWidth={1.6} />
+            </a>
+               <a
+              href="https://instagram.com/thelabelconcept"
+              target="_blank"
+              rel="noopener noreferrer" 
+              className=" ml-3 bg-[#ddc0b4] p-3  rounded mt-6 inline-flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.13em] text-[#B98773] transition-opacity hover:scale-[1.3] transition-all duration-1000 ease-in-out" 
+            >  
+              instagram 
               <ArrowUpRight size={15} strokeWidth={1.6} />
             </a>
           </div>
@@ -122,9 +131,7 @@ export default function TheLabelConceptCaseStudy() {
         <div className="mt-12 border-t border-[#E6DDD8] pt-10 sm:mt-16 sm:pt-12">
           <div className="mb-7 flex items-end justify-between">
             <div>
-              <p className="mb-3 text-[9px] font-bold uppercase tracking-[0.2em] text-[#B98773]">
-                Selected Content
-              </p>
+              
 
               <h3 className="font-[family-name:var(--font-editorial)] text-[32px] font-medium tracking-[-0.03em] text-[#2B2624] sm:text-[42px]">
                 Creative Work
@@ -156,9 +163,6 @@ export default function TheLabelConceptCaseStudy() {
 
                 <div className="absolute inset-0 bg-black/[0.04] transition-colors duration-300 group-hover:bg-black/[0.12]" />
 
-                <span className="absolute bottom-4 left-4 flex h-8 w-8 items-center justify-center rounded-full border border-white/60 bg-white/15 text-[9px] font-semibold text-white backdrop-blur-sm">
-                  0{index + 1}
-                </span>
               </div>
             ))}
           </div>

@@ -1,34 +1,29 @@
 import Image from "next/image";
+import ManagedTimeline from "./ManagedTimeline";
 import {
   ArrowUpRight,
   BadgeCheck,
   Camera,
   Megaphone,
-  Sparkles,
   Store,
-  Users,
 } from "lucide-react";
 
 const responsibilities = [
   {
     title: "Content & Brand Presentation",
     text: "Managing product presentation, content direction and brand consistency across social channels.",
-    icon: Sparkles,
   },
   {
     title: "Customer Communication",
     text: "Supporting customer interaction and maintaining a clear, professional brand voice.",
-    icon: Users,
   },
 {
   title: "Influencer Collaboration",
   text: "Coordinating product gifting and promotional collaborations with Instagram bloggers and influencers.",
-  icon: Camera,
 },
   {
     title: "Paid Promotion",
     text: "Running Meta advertising campaigns to support visibility and reach target audiences.",
-    icon: Megaphone,
   },
 ];
 
@@ -133,7 +128,7 @@ export default function NuitCollectionCaseStudy() {
             "
           >
             <Image
-              src="/portfolio/nuit/main.jpg"
+              src="/portfolio/nuitmain.jpeg"
               alt="Nuit Collection fashion brand work"
               fill
               sizes="(max-width: 1024px) 100vw, 42vw"
@@ -254,9 +249,9 @@ export default function NuitCollectionCaseStudy() {
             {/* Small Visuals */}
             <div className="grid grid-cols-2 gap-4">
               {[
-                "/portfolio/nuit/social-1.jpg",
-                "/portfolio/nuit/social-2.jpg",
-                "/portfolio/nuit/social-3.jpg",
+                "/portfolio/nuit1.png",      
+                "/portfolio/nuit2.png",
+                "/portfolio/nuit3.png",
               ].map((src, index) => (
                 <div
                   key={src}
@@ -314,108 +309,7 @@ export default function NuitCollectionCaseStudy() {
           </div>
         </div>
 
-        {/* ===============================
-            RESPONSIBILITIES
-        =============================== */}
-        <div
-          className="
-            mt-5
-            grid overflow-hidden
-            rounded-[22px]
-            border border-[#E6DDD8]
-            bg-white
-
-            lg:grid-cols-[0.7fr_1.3fr]
-            lg:rounded-[28px]
-          "
-        >
-          {/* Left */}
-          <div
-            className="
-              border-b border-[#E6DDD8]
-              p-6
-
-              sm:p-8
-
-              lg:border-b-0
-              lg:border-r
-              lg:p-10
-              xl:p-12
-            "
-          >
-            <p className="mb-4 text-[9px] font-bold uppercase tracking-[0.18em] text-[#B98773]">
-              My Role
-            </p>
-
-            <h3
-              className="
-                mb-5
-                font-[family-name:var(--font-editorial)]
-                text-[32px]
-                font-medium
-                leading-[1]
-                tracking-[-0.03em]
-                text-[#2E2927]
-
-                sm:text-[38px]
-              "
-            >
-              From social
-              <br />
-              promotion to
-              <br />
-              representation.
-            </h3>
-
-            <p className="max-w-[430px] text-[13px] leading-7 text-[#655B56] sm:text-[14px]">
-              The role combined digital communication, promotional activity,
-              influencer coordination and in-person brand representation.
-            </p>
-          </div>
-
-          {/* Right */}
-          <div className="p-6 sm:p-8 lg:p-10 xl:p-12">
-            <p className="mb-5 text-[9px] font-bold uppercase tracking-[0.18em] text-[#B98773]">
-              What I Managed
-            </p>
-
-            <div className="grid gap-3 sm:grid-cols-2">
-              {responsibilities.map(({ title, text, icon: Icon }) => (
-                <article
-                  key={title}
-                  className="
-                    rounded-[16px]
-                    border border-[#EEE2DC]
-                    bg-[#FCFAF8]
-                    p-4
-
-                    sm:p-5
-                  "
-                >
-                  <div
-                    className="
-                      mb-4 flex h-10 w-10
-                      items-center justify-center
-                      rounded-full
-                      bg-[#E6DDD8]
-                      text-[#A97865]
-                    "
-                  >
-                    <Icon size={17} strokeWidth={1.5} />
-                  </div>
-
-                  <h4 className="mb-2 text-[12px] font-semibold text-[#342E2B] sm:text-[13px]">
-                    {title}
-                  </h4>
-
-                  <p className="text-[10px] leading-5 text-[#746964] sm:text-[11px]">
-                    {text}
-                  </p>
-                </article>
-              ))}
-            </div>
-          </div>
-        </div>
+        <ManagedTimeline items={responsibilities} />
 
         {/* ===============================
             BRAND EXPOSURE STRIP
@@ -515,9 +409,6 @@ export default function NuitCollectionCaseStudy() {
           </div>
         </div>
 
-        {/* ===============================
-            BOTTOM CTA
-        =============================== */}
         <div
           className="
             mt-8

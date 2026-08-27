@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 const nav = [
-  { label: "Home", href: "/home", id: "home" },
+  { label: "Home", href: "/", id: "home" },
   { label: "Expertise", href: "/expertise", id: "expertise" },
   { label: "Portfolio", href: "/portfolio", id: "portfolio" },
   { label: "Contact", href: "/contact", id: "contact" },
@@ -62,13 +62,11 @@ export default function Header() {
           </span>
 
           <span className="brand-copy">
-            <strong>LAYLA OUD</strong>
+            <strong>LAYLA OUDO</strong>
             <small>
               SOCIAL MEDIA MANAGER
               <span>•</span>
-              EVENT PLANNER
-              <span>•</span>
-              MANAGER
+              EVENT MANAGER
             </small>
           </span>
         </a>

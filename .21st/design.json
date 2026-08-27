@@ -80,6 +80,16 @@
       "choice": "Use the supplied full-bleed herobg.png composition with editorial copy anchored over its open left side for the home hero.",
       "reason": "Matches the user-selected reference while preserving the portrait, arches, and styled desktop scene as a single cohesive visual.",
       "source": "components/Hero.tsx"
+    },
+    {
+      "choice": "Use layered scroll reveals on portfolio case studies: GSAP for section choreography and Framer Motion for card-scale and interaction feedback.",
+      "reason": "Creates the requested smooth left/right, scale, and fade motion while keeping timing restrained and honoring reduced-motion preferences.",
+      "source": "components/portfolio/TheLabelConceptCaseStudy.tsx"
+    },
+    {
+      "choice": "Present case-study responsibilities as a shared editorial process timeline with numbered terracotta markers and a flowing ribbon motif.",
+      "reason": "Matches the supplied mobile reference, creates a clearer reading path than repeated cards, and keeps both portfolio case studies visually consistent.",
+      "source": "components/portfolio/ManagedTimeline.tsx"
     }
   ],
   "evidence": [

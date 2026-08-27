@@ -34,11 +34,10 @@ export default function SelectedCaseStudies() {
       <div className="container">
         <div className="section-heading portfolio-heading">
           <div>
-            <p className="eyebrow">Selected Case Studies</p>
             <h2>Work That Shows The Thinking Behind The Result</h2>
           </div>
-          <a className="text-link" href="#contact">
-            View full portfolio <span>→</span>
+          <a className="text-link" href="/PORTFOLIO">
+            View full portfolio 
           </a>
         </div>
 

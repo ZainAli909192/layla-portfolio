@@ -1,9 +1,8 @@
 const footerNav = [
-  { label: "Home", href: "#home" },
-  { label: "About", href: "#about" },
-  { label: "Expertise", href: "#expertise" },
-  { label: "Portfolio", href: "#portfolio" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/" },
+  { label: "Expertise", href: "/expertise" },
+  { label: "Portfolio", href: "/portfolio" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export default function Footer() {
@@ -21,7 +20,7 @@ export default function Footer() {
 
               <div>
                 <h3 className="font-[family-name:var(--font-editorial)] text-[28px] font-medium leading-none sm:text-[32px]">
-                  Layla Oud
+                  Layla Ouda
                 </h3>
 
                 <p className="mt-2 text-[9px] font-semibold uppercase tracking-[0.14em] text-black sm:text-[10px]">
@@ -38,19 +37,16 @@ export default function Footer() {
 
           {/* CTA */}
           <div className="lg:text-right">
-            <p className="mb-3 text-[9px] font-bold uppercase tracking-[0.2em] text-[#DDC0B4]">
+            <p className="mb-3 text-[9px] font-bold uppercase tracking-[0.2em] text-black">
               Let&apos;s Connect
             </p>
 
             <a
-              href="mailto:Laylaoud@gmail.com"
+              href="mailto:Laylaouda@gmail.com"
               className="group inline-flex items-center gap-4 font-[family-name:var(--font-editorial)] text-[28px] font-medium leading-none text-black transition-colors hover:text-[#DDC0B4] sm:text-[34px]"
             >
-              Laylaoud@gmail.com
+              Laylaouda@gmail.com
 
-              <span className="text-[22px] font-light transition-transform duration-300 group-hover:translate-x-1">
-                →
-              </span>
             </a>
           </div>
         </div>
@@ -79,14 +75,13 @@ export default function Footer() {
               className="inline-flex min-h-10 items-center justify-center gap-2 bg-[#DDC0B4] px-4 text-[9px] font-bold uppercase tracking-[0.1em] text-[#2E2927] transition hover:bg-[#CFA99A]"
             >
               Download CV
-              <span>↓</span>
             </a>
           </div>
         </div>
 
         {/* Bottom */} 
         <div className="flex  flex-col gap-4  py-6 text-black  text-[15px] uppercase tracking-[0.1em] text-black sm:flex-row sm:items-center sm:justify-between">
-          <span>© 2026 Layla Oud. All rights reserved.</span> 
+          <span>© 2026 Layla Ouda. All rights reserved.</span> 
 
           
         </div>

@@ -393,7 +393,7 @@ export default function CurrentlyManaging() {
 
                 {/* Mobile circular arrow */}
                 <a
-                  href="#portfolio"
+                  href="/portfolio"
                   aria-label={`View ${brand.name} work`}
                   className="
                     absolute bottom-5 right-5 z-20
