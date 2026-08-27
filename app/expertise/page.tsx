@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import ProfessionalDevelopment from  "@/components/expertise/ProfessionalDevelopment";
+import FloatingContact from "@/components/connect";
      
 export default function ExpertisePage() {
   return (
@@ -15,6 +16,7 @@ export default function ExpertisePage() {
       <ProfessionalDevelopment />
       <HowIWork />
       <FinalCTA />
+      <FloatingContact />
       <Footer />
     </>
   );
