@@ -36,10 +36,10 @@ const exposure = [
 
 const galleryImages = [
   "/portfolio/nuitmain.jpeg",
-  "/portfolio/nuit2.png", 
+  "/portfolio/nuit12.png", 
   "/portfolio/nuit3.png",
-    "/portfolio/nuit3.png",
-  "/portfolio/nuit3.png",
+    "/portfolio/nuit13.jpg",
+  "/portfolio/nuit14.jpeg",
 
 ];
 
