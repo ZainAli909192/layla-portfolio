@@ -12,7 +12,7 @@ const contacts = [
   },
   {
     label: "WhatsApp",
-    value: "Start a conversation",
+    value: "+971 50 920 4222",
     note: "For a quick introduction or project brief",
     href: "https://wa.me/+971509204222",
     cta: "Message directly",
@@ -38,9 +38,9 @@ export default function ContactCards() {
           <div>
             <div className="mb-7 flex items-center gap-4">
               <span className="h-px w-10 bg-[var(--primary)]" aria-hidden="true" />
-              <p className="m-0 text-[11px] font-bold uppercase tracking-[0.22em] text-[var(--accent-dark)]">Contact</p>
+              <p className="m-0 text-[11px] font-bold  tracking-[0.22em] text-[var(--accent-dark)]">Contact</p>
             </div>
-            <h1 className="m-0 max-w-[700px] font-[family-name:var(--font-editorial)] text-[clamp(3.5rem,8vw,7rem)] font-medium leading-[0.88] tracking-[-0.055em] text-[var(--ink)]">
+            <h1 className="m-0 max-w-[700px] font-[family-name:var(--font-editorial)] text-[clamp(3.5rem,8vw,7rem)] font-samll leading-[0.88] tracking-[-0.055em] text-[var(--ink)]">
               Let&apos;s begin<br />
               <span className="italic text-[var(--accent-dark)]">with a hello.</span>
             </h1>
@@ -84,19 +84,12 @@ export default function ContactCards() {
               </div>
 
               <div className="mt-14">
-                <div className="mb-5 flex flex-wrap items-center gap-3">
-                  <p className={`m-0 text-[10px] font-bold uppercase tracking-[0.2em] ${index === 1 ? "text-[var(--primary)]" : "text-[var(--accent-dark)]"}`}>{label}</p>
-                  <span className={`rounded-full border px-3 py-1 text-[8px] font-bold uppercase tracking-[0.12em] ${index === 1 ? "border-[var(--muted)] text-[var(--secondary)]" : "border-[var(--line)] bg-[var(--paper)] text-[var(--muted)]"}`}>{badge}</span>
-                </div>
-                <h2 className={`m-0 font-[family-name:var(--font-editorial)] font-medium leading-[1.08] tracking-[-0.025em] ${index === 1 ? "text-[var(--white)]" : "text-[var(--ink)]"} ${
-                  index === 0
-                    ? "text-[1.5rem] sm:text-[1.7rem] lg:whitespace-nowrap lg:text-[1.8rem] xl:text-[2rem]"
-                    : index === 1
-                      ? "break-words text-[2rem] sm:text-[2.3rem] lg:text-[2.35rem] xl:text-[2.65rem]"
-                      : "break-words text-[2rem] sm:text-[2.3rem] lg:text-[2.2rem] xl:text-[2.45rem]"
-                }`}>
+               
+               
+                  <p className={`mb-0 mt-5 max-w-[340px] text-[15px] leading-7 ${index === 1 ? "text-[var(--secondary)]" : "text-[var(--muted)]"}`}>
                   {index === 0 ? <><span>Laylaouda@</span><wbr /><span>gmail.com</span></> : value}
-                </h2>
+                    </p>
+            
                 <p className={`mb-0 mt-5 max-w-[340px] text-[15px] leading-7 ${index === 1 ? "text-[var(--secondary)]" : "text-[var(--muted)]"}`}>{note}</p>
               </div>
 
