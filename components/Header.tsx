@@ -53,7 +53,7 @@ export default function Header() {
         <a
           className="brand"
           href="#home"
-          aria-label="Layla Oud home"
+          aria-label="Layla Ouda home"
           onClick={() => handleNavClick("home")}
         >
           <span className="brand-mark">
@@ -62,7 +62,7 @@ export default function Header() {
           </span>
 
           <span className="brand-copy">
-            <strong>LAYLA OUDO</strong>
+            <strong>LAYLA OUDA</strong>
             <small>
               SOCIAL MEDIA MANAGER
               <span>•</span>
