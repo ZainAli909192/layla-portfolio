@@ -392,7 +392,7 @@ export default function AboutIdentity() {
             </span>
 
             <span className="mt-1 text-[6px] font-bold uppercase tracking-[0.12em] text-[#B77B62]">
-              Layla Oud
+              Layla Ouda
             </span>
           </div>
 
@@ -435,9 +435,7 @@ export default function AboutIdentity() {
           >
             Discover My Expertise
 
-            <span className="ml-4 transition-transform group-hover:translate-x-1">
-              →
-            </span>
+            
           </a>
         </div>
       </div>
